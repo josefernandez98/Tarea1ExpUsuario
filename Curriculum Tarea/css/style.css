@@ -1,0 +1,356 @@
+body {
+  font-family: Century Gothic;
+  font-size: 15px;
+  line-height: 1.5;
+  /*font: 15px/1.5 Arial, Helvetica, sans-serif; Es lo mismo a lo de arriba*/
+  padding: 0;
+  margin: 0;
+  background-color: #35424a;
+}
+
+/* Global */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.dark {
+  padding: 20px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  float: right;
+}
+
+
+.light {
+  padding: 20px;
+  background:  #737a87;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: none;
+  float: left;
+}
+
+
+.light2 {
+  padding: 20px;
+  background:   #384661 ;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  text-align: center;
+}
+
+
+.light2E {
+  padding: 20px;
+  background:   #384661 ;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  margin: 50px;
+  text-align: center;
+}
+
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/*INICIO DE LA PAGINA PRINCIPAL*/
+
+/* Header COMPLETO*/
+header {
+  background: url("../img/header.jpg") no-repeat 0 -405px;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px; /*padding: top right bottom left*/
+}
+
+header #branding { /*Se pone el # porque es un id*/
+  float: left;
+}
+
+header #branding h1 {
+  margin: 0;
+  font-size: 1em;
+  text-shadow: 0 0 5px;
+}
+
+header .highlight{
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+header .current a {
+  color:    #155fe8   ;
+  font-weight: bold;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+/*HEADER COMPLETO*/
+
+/* Showcase */
+#showcase {
+  min-height: 250px;
+  background: url("../img/showcase.jpg") no-repeat 0 -260px;
+  text-align: center;
+  color:#ffffff;
+  line-height: 3em;
+}
+
+#showcase img {
+  float: right;
+  margin-top: 40px;
+}
+
+#showcase h1 {
+  margin-top: 50px;
+  font-size: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#showcase p {
+  font-size: 18px;
+  text-align: center;
+}
+/*Fin del showcase*/
+
+/* Newsletter */
+#newsletter {
+  padding: 15px;
+  color: #000000;
+  background: #35424a;
+  font-family: Century Gothic;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+/*Fin del Newslette*/
+
+/* FIN DE LA PAGINA PRINCIPAL*/
+
+
+
+
+                                                      /*DATOS PERSONALES*/
+/*MAINDP*/
+#mainDP form[id = "DP1"] {
+  font-size: 20px;
+  float: left;
+  text-align: left;
+  line-height: 2em;
+}
+
+#mainDP form[id = "DP2"] {
+  font-size: 20px;
+  float: right;
+  text-align: left;
+  line-height: 2em;
+}
+
+#mainDP h1 {
+  font-size: 30px;
+  text-decoration: underline;
+  text-shadow: 0 0 2px;
+}
+
+#mainDP {
+  min-height: 300px;
+  background: url("../img/showcase.jpg") no-repeat 0 -260px;
+  text-align: center;
+  color:#ffffff;
+  line-height: 3em;
+  background: #030d21;
+  font-size: 20px;
+}
+
+#mainDP li {
+  list-style-type: none;
+}
+
+#mainDP img {
+  text-align: center;
+  margin-left: 40px;
+  margin-top: 13px;
+}
+/*FIN DEL MAINDP*/
+
+/*SECDP*/
+#SecDP {
+  background: #030d21;
+  text-align: center;
+  color:#ffffff;
+  line-height: 3em;
+}
+
+#SecDP h1 {
+  text-shadow: 0 3px 5px;
+  text-align: center;
+  margin-right: 40px;
+}
+
+
+#SecDP li {
+  list-style-type: none;
+}
+
+#SecDP form[id = "DP3"] {
+  font-size: 20px;
+  text-align: center;
+  line-height: 2em;
+  margin-left: 300px;
+  margin-right: 380px;
+  margin-bottom: 40px;
+}
+
+/*FIN DEL SECDP*/
+
+                              /*Fin de Datos Personales*/
+
+
+
+/*Hobbies y Experiencias*/
+
+#mainHEx {
+  min-height: 300px;
+  background: url("../img/showcase.jpg") no-repeat 0 -260px;
+  text-align: center;
+  color:#ffffff;
+  line-height: 3em;
+  background: #030d21;
+}
+
+#mainHEx li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+#mainHEx .light2 {
+  margin-right: 40px;
+  margin-bottom: 30px;
+}
+
+#mainHEx form[id = "experiencia"] {
+  font-size: 20px;
+  float: left;
+  text-align: center;
+  line-height: 2em;
+}
+
+#mainHEx form[id = "hobbies"] {
+  font-size: 20px;
+  float: right;
+  text-align: center;
+  line-height: 2em;
+}
+
+#mainHEx h1 {
+  text-shadow: 0 3px 5px;
+  text-align: center;
+  margin-right: 30px;
+}
+
+
+/* Footer */
+footer {
+  padding: 1px;
+  color: #ffffff;
+  background-color:   #505d74 ;
+  text-align: center;
+  font-family: Century Gothic;
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+table{
+  border: 1px solid black;
+  border-collapse: collapse;
+  opacity: 0.95;
+  width: 90%;
+  font-family: Century Gothic;
+}
+
+th {
+  background: #a70000;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background:  #e8e8e8;
+}
+
+tr:nth-child(odd) {
+  background:white;
+}
+
+.header {
+  background:   #274661 ;
+  color: white;
+}
+
+th, td {
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+article {
+  overflow-x: auto;
+}
